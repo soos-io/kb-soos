@@ -22,6 +22,20 @@ To be able to run a `SOOS DAST Analysis Scan` you need to get the `Client Id` an
 
 <img src="/assets/img/api-credentials.png" alt="API Credentials section">
 
-4. Go to your `GitLab` project
+4. Go to your `GitLab` project and navigate to the `CI/CD Settings`
+
+<img src="/assets/img/gitlab/settings.png" alt="GitLab Settings">
+
+5. Press the `Expand` button within the `Variables` section:
+
+<img src="/assets/img/gitlab/variables.png" alt="GitLab Variables">
+
+6. Create the `SOOS_API_KEY` and `SOOS_CLIENT_ID` variables using the values copied on step 3. These will serve as environment variables to be used by the SOOS DAST.
+
+## Create or Update your `.gitlab.yml` file
+
+Once the `SOOS_CLIENT_ID` and `SOOS_API_KEY` have been configured, the next step is create or update the `.gitlab.yml` file-
+
+
 
 
